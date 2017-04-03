@@ -26,7 +26,7 @@ MyBatis 是支持普通 SQL 查询，存储过程和高级映射的优秀持久�
 ![项目结构图](http://img.blog.csdn.net/20170201212514729?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzUyNDY2MjA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 
-**第一步：**创建 Java Web 项目，导入 jar 包
+**第一步**：创建 Java Web 项目，导入 jar 包
 
 ```
 mybatis-3.2.2.jar		                核心jar
@@ -39,7 +39,7 @@ log4j-1.2.17.jar			        日志
 slf4j-api-1.7.5.jar		  	        日志
 slf4j-log4j12-1.7.5.jar		                日志
 ```
-**第二步：**创建核心配置文件   sqlMapConfig.xml 
+**第二步**：创建核心配置文件   sqlMapConfig.xml 
 
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -68,7 +68,7 @@ slf4j-log4j12-1.7.5.jar		                日志
     </mappers>
 </configuration>
 ```
-**第三步：**创建映射文件 UersMapper.xml
+**第三步**：创建映射文件 UersMapper.xml
 
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -84,7 +84,7 @@ slf4j-log4j12-1.7.5.jar		                日志
     </select>
 </mapper>
 ```
-**第四步：**创建实体类 Person
+**第四步**：创建实体类 Person
 
 ```
 package yeepay.payplus;
@@ -131,7 +131,7 @@ public class Person {
     }
 }
 ```
-**第五步：**创建测试类 CeshiMyBatis
+**第五步**：创建测试类 CeshiMyBatis
 
 ```
 package yeepay.payplus.test;
