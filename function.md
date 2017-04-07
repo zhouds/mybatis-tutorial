@@ -9,7 +9,7 @@
 
 老规矩，首先给出项目结构图：
 
-![项目结构图](http://img.blog.csdn.net/20170202110143909?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzUyNDY2MjA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![项目结构图](http://img.blog.csdn.net/20170202110143909)
 
 在实现以上三个功能的时候，咱们需要修改的地方其实并不多，只需要修改两个地方就可以啦，分别是映射文件 UserMapper.xml 和测试类 CeshiMyBatis.
 
