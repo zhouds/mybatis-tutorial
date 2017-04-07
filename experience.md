@@ -23,7 +23,7 @@ MyBatis 是支持普通 SQL 查询，存储过程和高级映射的优秀持久�
 ---------------
 首先，给出项目结构图：
 
-![项目结构图](http://img.blog.csdn.net/20170201212514729?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzUyNDY2MjA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![项目结构图](http://img.blog.csdn.net/20170201212514729)
 
 
 **第一步**：创建 Java Web 项目，导入 jar 包
