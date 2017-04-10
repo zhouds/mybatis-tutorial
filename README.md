@@ -7,6 +7,7 @@
 - [史上最简单的 MyBatis 教程（二）](https://github.com/guobinhit/mybatis-tutorial/blob/master/function.md)
 - [史上最简单的 MyBatis 教程（三）](https://github.com/guobinhit/mybatis-tutorial/blob/master/summary.md)
 - [史上最简单的 MyBatis 教程（四）](https://github.com/guobinhit/mybatis-tutorial/blob/master/dynamic.md)
+- [史上最简单的 MyBatis 教程（五）](https://github.com/guobinhit/mybatis-tutorial/blob/master/mapper.md)
 
 ----------
 此外，附上一句格言，望共勉：**好学若饥，谦卑若愚。**
