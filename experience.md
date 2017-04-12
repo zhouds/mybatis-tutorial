@@ -49,7 +49,7 @@ slf4j-log4j12-1.7.5.jar		                日志
 
 <configuration>
     <!-- 配置开发环境，可以配置多个，在具体用时再做切换 -->
-    <environments default="">
+    <environments default="test">
         <environment id="test">
             <transactionManager type="JDBC"></transactionManager>    <!-- 事务管理类型：JDBC、MANAGED -->
             <dataSource type="POOLED">    <!-- 数据源类型：POOLED、UNPOOLED、JNDI -->
