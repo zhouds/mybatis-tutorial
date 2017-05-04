@@ -17,7 +17,7 @@ MyBatis 是支持普通 SQL 查询，存储过程和高级映射的优秀持久�
  - 创建映射文件 UersMapper.xml；
  - 创建测试类。
 
-其中，MyBatis 框架的 jar 包可以通过“[MyBatis 之 各种依赖包](http://download.csdn.net/detail/qq_35246620/9745924)”进行下载，而且里面包含了大多数常用的配置文件，值得大家 get.  此外，还有一点需要大家注意，那就是 MyBatis 框架用于操作数据，支持 SQL 语句，因此在体验 MyBatis 框架的时候，需要使用数据库配合进行测试。**在本项目中，咱们就需要在数据库中创建了一个名为`person`的表，并通过 MyBatis 框架对其进行一系列常见的操作（增、删、改、查等）。**
+其中，MyBatis 框架的 jar 包可以通过「[MyBatis 之 各种依赖包](http://download.csdn.net/detail/qq_35246620/9745924)」进行下载，而且里面包含了大多数常用的配置文件，值得大家 get.  此外，还有一点需要大家注意，那就是 MyBatis 框架用于操作数据，支持 SQL 语句，因此在体验 MyBatis 框架的时候，需要使用数据库配合进行测试。**在本项目中，咱们就需要在数据库中创建了一个名为`person`的表，并通过 MyBatis 框架对其进行一系列常见的操作（增、删、改、查等）。**
 
 3 体验 MyBatis 框架
 ---------------
@@ -173,7 +173,7 @@ public class CeshiMyBatis {
     }
 }
 ```
-在完成以上的操作后，咱们可以通过 JUnit 来测试框架是否搭建成功，具体使用 JUnit 进行测试的方法，可以通过阅读“[基于 JUnit 单元测试的原理及示例](http://blog.csdn.net/qq_35246620/article/details/54620207)”来了解更为详细的内容。
+在完成以上的操作后，咱们可以通过 JUnit 来测试框架是否搭建成功，具体使用 JUnit 进行测试的方法，可以通过阅读「[基于 JUnit 单元测试的原理及示例](http://blog.csdn.net/qq_35246620/article/details/54620207)」来了解更为详细的内容。
 
 ----------
 ———— ☆☆☆ —— [返回 -> 史上最简单的 MyBatis 教程 <- 目录](https://github.com/guobinhit/mybatis-tutorial/blob/master/README.md) —— ☆☆☆ ————
