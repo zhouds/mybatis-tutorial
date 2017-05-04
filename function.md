@@ -30,7 +30,7 @@
 public void testInsert(){
     //定位核心配置文件
     String resource = "sqlMapConfig.xml";			
-    InputStream inputStream = this.getClass().getResourceAsStream(resource);
+    InputStream inputStream = Resources.getResourceAsStream(resource);
     // 创建 SqlSessionFactory
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);		
 
@@ -65,7 +65,7 @@ public void testInsert(){
 public void testUpdate(){
     //定位核心配置文件
     String resource = "sqlMapConfig.xml";			
-    InputStream inputStream = this.getClass().getResourceAsStream(resource);
+    InputStream inputStream = Resources.getResourceAsStream(resource);
     // 创建 SqlSessionFactory
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);	
     
@@ -102,7 +102,7 @@ public void testUpdate(){
 public void testDeleteById(){
     //定位核心配置文件
     String resource = "sqlMapConfig.xml";
-    InputStream inputStream = this.getClass().getResourceAsStream(resource);
+    InputStream inputStream = Resources.getResourceAsStream(resource);
     // 创建 SqlSessionFactory
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);		
     // 获取到 SqlSession 
@@ -283,7 +283,7 @@ public class CeshiMyBatis {
     @Test
     public void testInsert(){
         String resource = "sqlMapConfig.xml";			//定位核心配置文件
-        InputStream inputStream = this.getClass().getResourceAsStream(resource);
+        InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);		// 创建 SqlSessionFactory
 
         SqlSession sqlSession = sqlSessionFactory.openSession();			//获取到 SqlSession
@@ -300,7 +300,7 @@ public class CeshiMyBatis {
     @Test
     public void testUpdate(){
         String resource = "sqlMapConfig.xml";			//定位核心配置文件
-        InputStream inputStream = this.getClass().getResourceAsStream(resource);
+        InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);		// 创建 SqlSessionFactory
 
         SqlSession sqlSession = sqlSessionFactory.openSession();			// 获取到 SqlSession
@@ -316,7 +316,7 @@ public class CeshiMyBatis {
     @Test
     public void testDeleteById(){
         String resource = "sqlMapConfig.xml";			//定位核心配置文件
-        InputStream inputStream = this.getClass().getResourceAsStream(resource);
+        InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);		// 创建 SqlSessionFactory
 
         SqlSession sqlSession = sqlSessionFactory.openSession();			// 获取到 SqlSession
