@@ -80,7 +80,7 @@ public void testQuery() throws IOException {   // 查询记录
 @Test
 public void testUpdate() {   // 修改方法
     String resource = "sqlMapConfig.xml";            //定位核心配置文件
-    InputStream inputStream = this.getClass().getResourceAsStream(resource);
+    InputStream inputStream = Resources.getResourceAsStream(resource);
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);        // 创建 SqlSessionFactory
 
     SqlSession sqlSession = sqlSessionFactory.openSession();            // 获取到 SqlSession
@@ -115,7 +115,7 @@ public void testUpdate() {   // 修改方法
 @Test
 public void testDeleteArray() {   // 批量删除
     String resource = "sqlMapConfig.xml";            //定位核心配置文件
-    InputStream inputStream = this.getClass().getResourceAsStream(resource);
+    InputStream inputStream = Resources.getResourceAsStream(resource);
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);        // 创建 SqlSessionFactory
 
     SqlSession sqlSession = sqlSessionFactory.openSession();            // 获取到 SqlSession
@@ -141,7 +141,7 @@ public void testDeleteArray() {   // 批量删除
 @Test
 public void testDeleteList() {   // 批量删除
     String resource = "sqlMapConfig.xml";            //定位核心配置文件
-    InputStream inputStream = this.getClass().getResourceAsStream(resource);
+    InputStream inputStream = Resources.getResourceAsStream(resource);
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);        // 创建 SqlSessionFactory
 
     SqlSession sqlSession = sqlSessionFactory.openSession();            // 获取到 SqlSession
@@ -174,7 +174,7 @@ public void testDeleteList() {   // 批量删除
 @Test
 public void testDeleteMap() {   // 批量删除
     String resource = "sqlMapConfig.xml";            //定位核心配置文件
-    InputStream inputStream = this.getClass().getResourceAsStream(resource);
+    InputStream inputStream = Resources.getResourceAsStream(resource);
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);        // 创建 SqlSessionFactory
 
     SqlSession sqlSession = sqlSessionFactory.openSession();            // 获取到 SqlSession
