@@ -16,10 +16,10 @@
     <select id="findAll" parameterType="yeepay.payplus.domain.Person" resultType="Person">  <!-- 书写 SQL 语句 -->
         SELECT id,name,age FROM person
         <where>
-            <if test="name =! null">
+            <if test="name != null">
                 name = #{name}
             </if>
-            <if test="age =! null">
+            <if test="age != null">
                 and age = #{age}
             </if>
         </where>
@@ -40,10 +40,10 @@
     <update id="update" parameterType="yeepay.payplus.domain.Person">
         UPDATE person
         <set>
-            <if test="name =! null">
+            <if test="name != null">
                 name = #{name},
             </if>
-            <if test="age =! null">
+            <if test="age != null">
                 age=#{age},
             </if>
         </set>
